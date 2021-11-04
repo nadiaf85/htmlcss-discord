@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+header{
+    width: 100%;
+    background-color: royalblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* text-align: center; */
+}
+
+.header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+}
+
+.nav{
+    float: left;
+    display: inline;
+    width: 80%;
+}
+
+.accedi{
+    float: right;
+}
+nav li a{
+    text-decoration: none;
+    /* float: left; */
+}
+
+nav li{
+    display: inline;
+    text-transform: uppercase;
+    list-style: none;
+    padding-right: 10px;
+    float: left;
+}
+
+#button{
+    display: inline;
+    text-transform: uppercase;
+    list-style: none;
+    padding-right: 10px;
+}
+
+/* .jumbotrone{
+    height: 546px;
+    background-image: url(/img/jumbo.png);
+} */
