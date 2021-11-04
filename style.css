@@ -19,10 +19,6 @@ header{
     clear: both;
 }
 
-.logo{
-    float: left;
-}
-
 .nav{
     float: left;
     display: inline;
@@ -34,7 +30,6 @@ header{
 }
 nav li a{
     text-decoration: none;
-    /* float: left; */
 }
 
 nav li{
