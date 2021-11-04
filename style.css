@@ -70,7 +70,9 @@ nav li{
     background-color: white;
     color: black;
 }
-
+#accedi a{
+    text-decoration: none;
+}
 
 .img-rana{
     height: 600px;
@@ -80,8 +82,24 @@ nav li{
     position: relative;
 }
 
+#mac{
+    display: inline-block;
+    background-color: white;
+    padding-right: 10px;
+}
+
+#mac a, #altro a{
+    text-decoration: none;
+}
+
+#altro{
+    display: inline-block;
+    padding-right: 10px;
+}
+
 .text-top > h1{
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .text-top > p{
@@ -92,7 +110,7 @@ nav li{
 .text-top{
     color: white;
     position: absolute;
-    top: 130px;
+    top: 80px;
     width: 60%;
     text-align: center;
     transform: translate(50%,50%);
@@ -106,8 +124,8 @@ nav li{
     text-align: center;
 }
 
-.text-top>p{
-    width:40%;
+.text-top > p{
+    width: 68%;
 }
 
 .testo1{
@@ -137,6 +155,23 @@ nav li{
     display: inline-block;
     margin-top: 120px;
     margin-left: 80px;
+}
+
+.testo3 > h2{
+    font-size: 30px;
+    width: 38%;
+    margin-bottom: 20px;
+}
+
+.testo4 > h2{
+    margin-bottom: 20px;
+}
+
+.testo4 > p{
+    width: 40%;
+    margin-left: 15%;
+    width: 70%;
+
 }
 /* .mac{
     color:black;
@@ -188,9 +223,15 @@ nav li{
     left: 90px;
 }
 
+.testo2 > h2{
+    font-size: 30px;
+    width: 52%;
+}
+
 .riga2 div{
     display: inline-block;
     float: right;
+    margin-left: 20%;
 }
 
 
@@ -203,12 +244,21 @@ nav li{
     text-align: center;
 }
 
+.img4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img-bottom{
+    background-image: url(img/stars.svg);
+    margin-bottom: 70px;
+}
+
+
+
+
 footer{
     background-color: purple;
     width: 100%;
-    height: 80px;
-}
-
-.img4{
-    text-align: center;
+    height: 800px;
 }
