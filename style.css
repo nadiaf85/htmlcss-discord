@@ -4,6 +4,10 @@
   box-sizing: border-box;  
 }
 
+body{
+    font-family: Whitney, Helvetica neue;
+}
+
 header{
     width: 100%;
     height: 80px;
@@ -11,47 +15,200 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    line-height: 80px;
+    z-index: 2;
 }
 
-.header::after{
+.container{
+    width: 80%;
+    margin: auto;
+}
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
 
-.nav{
+.img-logo{
+    vertical-align: middle;
+}
+
+#nav{
     float: left;
     display: inline;
     width: 80%;
 }
 
-.img-logo{
-    float: left;
+#nav > ul{
+    text-align: center;
 }
 
-#accedi{
-    float: right;
+.logo-container{
+    float: left;
+    width: 10%;
 }
+
 nav li a{
     text-decoration: none;
+    color: white;
+    padding: 10px;
 }
 
 nav li{
-    display: inline;
-    text-transform: uppercase;
+    display: inline-block;
     list-style: none;
     padding-right: 10px;
-    float: left;
 }
 
 #accedi{
-    display: inline;
-    text-transform: uppercase;
+    display: inline-block;
     list-style: none;
     padding-right: 10px;
+    float: right;
+    border: 2px white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
 }
 
-/* .jumbotrone{
-    height: 546px;
-    background-image: url(/img/jumbo.png);
+
+.img-rana{
+    height: 600px;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.text-top > h1{
+    font-size: 40px;
+}
+
+.text-top > p{
+    width: 40%;
+    margin-left: 15%;
+    width: 70%;
+}
+.text-top{
+    color: white;
+    position: absolute;
+    top: 130px;
+    width: 60%;
+    text-align: center;
+    transform: translate(50%,50%);
+    font-size: 15px;
+}
+
+.text > h1 p{
+    position: ab;
+    top: 100px;
+    width: 50%;
+    text-align: center;
+}
+
+.text-top>p{
+    width:40%;
+}
+
+.testo1{
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+
+.testo1 > h2{
+    font-size: 30px;
+    width: 38%;
+    margin-bottom: 20px;
+}
+
+.testo2{
+    display: inline-block;
+    margin-top: 120px;
+    margin-right: 80px;
+}
+.testo2 > h2{
+    font-size: 30px;
+    width: 38%;
+    margin-bottom: 20px;
+}
+
+.testo3{
+    display: inline-block;
+    margin-top: 120px;
+    margin-left: 80px;
+}
+/* .mac{
+    color:black;
+    background-color: white;
+}
+
+.altro{
+    background-color: black;
 } */
+
+.img1{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.img1 > .testo{
+    position: absolute;
+}
+
+.riga1,.riga2,.riga3{
+    margin-bottom: 80px;
+}
+
+.riga1 div{
+    display: inline-block;
+    float: left;
+}
+
+.riga1 .testo h2,p{
+    float: left;
+    width: 40%
+    
+}
+
+.testo1,.testo3{
+    float: right;
+    width: 40%;
+}
+
+.testo1 > h2{
+    font-size: 30px;
+}
+
+.testo2{
+    float: left;
+    width: 30%;
+    position: absolute;
+    left: 90px;
+}
+
+.riga2 div{
+    display: inline-block;
+    float: right;
+}
+
+
+.riga3 div{
+    display: inline-block;
+    float: left;
+}
+
+.riga4{
+    text-align: center;
+}
+
+footer{
+    background-color: purple;
+    width: 100%;
+    height: 80px;
+}
+
+.img4{
+    text-align: center;
+}
